@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PhotoCollageView.h"
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet PhotoCollageView *collageView;
 
 @end
